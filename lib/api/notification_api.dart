@@ -7,6 +7,7 @@ import 'package:titer/models/notification_model.dart';
 class NotificationApi {
   final Databases _databases;
   final Realtime _realtime;
+  final Realtime _realtime2;
 
   NotificationApi({
     required Databases databases,
